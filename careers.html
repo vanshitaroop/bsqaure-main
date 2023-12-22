@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BSQUARE - FAQs</title>
+    <title>BSQUARE - Careers</title>
     <link rel="icon" href="./images/favicon.png" type="image/png">
     <link rel="stylesheet" href="./style.css">
 
@@ -16,9 +16,6 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
-
     #header {
         width: 100%;
         height: 100vh;
@@ -65,105 +62,8 @@
         height: 100%;
     }
 
-    .FAQ {
-        padding: 0 10%;
-    }
 
-    .FAQ .wrapper {
-        width: 100%;
-    }
-
-    .FAQ h1 {
-        margin-bottom: 20px;
-    }
-
-    .FAQ .container {
-        background-color: white;
-        color: black;
-        border-radius: 20px;
-        box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.25);
-        margin: 20px 0;
-    }
-
-    .FAQ .question {
-        font-size: 1.1rem;
-        font-weight: 600;
-        padding: 20px 80px 20px 20px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .FAQ .question::after {
-        content: "\002B";
-        font-size: 2.2rem;
-        position: absolute;
-        right: 20px;
-        transition: 0.2s;
-    }
-
-    .FAQ .question.active::after {
-        transform: rotate(45deg);
-    }
-
-    .FAQ .answercont {
-        max-height: 0;
-        overflow: hidden;
-        transition: 0.3s;
-    }
-
-    .FAQ .answer {
-        padding: 0 20px 20px;
-        line-height: 1.5rem;
-    }
-
-    /* .FAQ .question.active+.answercont {} */
-
-    @media screen and (max-width: 790px) {
-
-        .FAQ .wrapper {
-            width: 100%;
-        }
-
-        .FAQ {
-            padding: 0 2%;
-        }
-    }
-
-    .blog .carousel-control-prev,
-    .blog .carousel-control-next {
-        position: absolute;
-        top: 25%;
-
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        width: 15%;
-        height: 15%;
-        color: #fff;
-        text-align: center;
-        opacity: 22.5;
-    }
-
-    .blog a {
-
-        text-decoration: none;
-        color: #0087c4;
-        padding: 5px 10px;
-        background-color: white;
-        border: none;
-
-    }
-
-    .footer-widget-heading .col-xl-6 button {
+    .Blogs .col-xl-6 button {
         background-color: #0086c451;
         border: none;
         padding: 10px 12px;
@@ -174,7 +74,7 @@
         transition: .4s;
     }
 
-    .footer-widget-heading .col-xl-6 button:hover {
+    .Blogs .col-xl-6 button:hover {
         background-color: #0086c451;
         border: none;
         padding: 10px 12px;
@@ -185,11 +85,11 @@
         transition: .4s;
     }
 
-    .footer-widget-heading .modal .modal-dialog {
+    .footer-section .modal .modal-dialog {
         max-width: 800px;
     }
 
-    .footer-widget-heading .modal .modal-header {
+    .Blogs .modal .modal-header {
         border: none;
 
     }
@@ -238,6 +138,21 @@
         transition: .4s;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     }
+
+    .Careers .row .col,
+    .col-lg-12,
+    .rows {
+
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+
+
+    .Careers_img {
+        width: 40%;
+        aspect-ratio: 3/2;
+        object-fit: contain;
+    }
 </style>
 
 <body>
@@ -247,9 +162,9 @@
     <nav class="navbar navbar-expand-lg navbar-fixed-top py-0" aria-label="Offcanvas navbar large">
         <div class="container-fluid" id="nav_container">
             <div class="container main_nav_container justify-content-center">
-                <div class="d-flex flex-row justify-content-between inner_div">
+                <div class="d-flex flex-row justify-content-between ">
                     <a class="navbar-brand" href="index.html">
-                        <img src="./images/BSquare logo without bg.png" alt="Bsquare"></a>
+                        <img src="./images/BSquare logo without bg.png" alt=""></a>
                     <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                         <span class="bi bi-list "></span>
@@ -297,6 +212,7 @@
                                 <a class="nav-link" href="tel:+91 9925122772">+91&nbsp;9925122772</a>
                             </li>
 
+
                         </ul>
 
                     </div>
@@ -308,10 +224,10 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/backposters/b10.JPG" class="d-block w-100" alt="...">
+                    <img src="./images/backposters/b9.JPG" class="d-block w-100" alt="...">
                     <div class="title">
-                        <h1 class="animated slideInDown"><span>Frequently asked questions to solve all your queries
-                            </span></h1>
+                        <h1 class="animated slideInDown"><span>If you want to be a part of our amazing professional
+                                eco-system then you have come on the right page. </span></h1>
                         <h2 class="animated slideInLeft"></h2>
                     </div>
                 </div>
@@ -320,263 +236,101 @@
 
         </div>
     </div>
+    <section class="Careers">
+        <div class="container">
+            <div>
+                <h2 class="heading_style text-start">Join Us</h2>
+                <hr class="hr">
+                <p class="text-start mt-2">We are constantly looking for enthusiastic and self-motivated team players to
+                    join our various departments. By employing people with different skill-sets, we are better equipped
+                    to
+                    understand the needs of our customers and to provide a quality service. If you make the commitment
+                    to
+                    join our team, we will provide career opportunities that are second to none.</p>
 
-    <div class="container FAQ">
-        <div>
-            <h2 class="heading_style">FAQ</h2>
-            <hr class="hr m-auto">
+            </div>
 
-        </div>
+            <div class="container mt-5">
+                <div class="row m-4 ">
+                    <div class="col-xl-6 col-md-6 col-sm-12  ">
+                        <div class="box-image text-center">
+                            <img src="./images/j-1.png" class="w-100 Careers_img" alt="404-not found">
+                        </div> <br>
+                        <div class="content">
+                            <h4 class="text-center">Centre Manager</h4>
+                            <p>Centre Manager shall be responsible for Office Administration and Office Reception”.</p>
+                            <p><span class="fw-bold">Job Profile:</span> Handling Office Accounts/ Customer Accounts/
+                                Maintaining Customer as well as vendor reports/ Handling Customer Queries and resolving
+                                within deadlines / Handling Reception for Walk-in of our (mainly Existing) Clients. /
+                                Sending Proposals to new clients, etc.</p>
+                            <p><b>Eligibility:</b> Graduation or Under-graduation but with experience.</p>
+                            <p><b>Experience:</b> Minimum 6 months, Fresher acceptable if possesses good English
+                                Communication Skills.</p>
+                            <p><b>Location:</b> Ahmedabad, Gujarat</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-sm-12  ">
+                        <div class="box-image text-center">
+                            <img src="./images/j-2-2.png" class="w-100 Careers_img" alt="404-not found">
+                        </div> <br>
+                        <div class="content">
+                            <h4 class="text-center">Accounts Manager</h4>
+                            <p>Accounts Manager shall be responsible for Group Company’s Accounts Handling & Management
+                                in
+                                all the stages.</p>
+                            <p><span class="fw-bold">Job Profile:</span> Handling Office Accounts/ Customer Accounts/
+                                Maintaining Customer as well as
+                                vendor accounts, TDC Filing, GST Returns Filing, Tally Accounts, Assisting the Statutory
+                                Audit of Group Accounts, etc.</p>
+                            <p><b>Eligibility:</b> Graduation or Under-graduation but with experience. Must Possess
+                                Basic
+                                Knowledge of Accountancy, Tally, GST, etc.</p>
+                            <p><b>Experience:</b> Preferably 12 months in Accountancy .</p>
+                            <p><b>Location:</b> Ahmedabad, Gujarat</p>
+                        </div>
+                    </div>
 
-        <div class="wrapper">
-
-            <div class="container">
-                <div class="question">
-                    What is BSQUARE Coworking Space? How is it different from a traditional office?
                 </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p> BSQUARE Coworking Space is a fully-furnished, serviced, co-working and office space
-                            conveniently
-                            located at a prestigious business location. With BSQUARE Coworking Space you get a complete,
-                            professional office environment that will be available to you whenever you want. You can
-                            book
-                            the different office spaces that are cost-effective and as per your requirement. You’ll also
-                            get
-                            professional receptionists, state-of-the-art telephone and IT services, pantry visitors and
-                            a
-                            lounge area.</p>
-                        <br>
-                        <p>With traditional offices, you have to go through lot of hassles. Before you can be
-                            productive,
-                            you must:</p>
 
-                        <ul>
-                            <li>Pay brokerage for office space</li>
-                            <li> Sign a fixed-length office lease</li>
-                            <li> Provide office furniture & fixtures</li>
-                            <li>Contract with multiple service providers (phone, Internet, maintenance)</li>
-                            <li>Hire an office support staff</li>
-                            <li>Buy office equipment</li>
-                            <li>Spend time, resources and money</li>
-                            <li>Hire an office support staff</li>
+                <div class="row p-1 m-4 ">
+                    <div class=" col-lg-4 box-image text-center mt-5">
+                        <img src="./images/j-3.png" alt="404-not found" class="w-100 Careers_img">
+                    </div>
+                    <br>
+                    <div class="col-lg-8 content">
+                        <h4>Business Development Manager</h4>
+                        <p>Responsible for Lead Generation through Website / campaigning through social media platforms,
+                            Job Profile:</p>
+                        <p><b>Job Profile:</b>
+                        <ul class="text-start" style="font-size: 13px;">
+                            <li>Tour and sell space to new clients by presenting BSQUARE’s value proposition and
+                                mission.</li>
+                            <li>Identify the needs of prospective and existing clients and recommend tailored solutions
+                                responsive to their needs</li>
+                            <li>Research prospective clients in your tour pipeline and develop tailored sales pitches to
+                                meet their needs, ensuring all follow-up and closing requirements are addressed</li>
+                            <li>Refer prospective or existing clients to other locations based on their specific needs
+                                in order to meet shared Portfolio and Territory sales targets</li>
+                            <li>Develop and implement lead generation and sales conversion strategies to maintain 100%
+                                occupancy in collaboration with the Centre Manager</li>
+                            <li>Connect with local institutions and attend networking events to promote BSQUARE’s
+                                community and identify potential clients</li>
                         </ul>
-                        <p>With BSQUARE Coworking Space, your office space solutions are a single phone call or mouse
-                            click
-                            away. Simply select your office and start working? and leave the rest to us.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="question">
-                    What type of terms and conditions come with BSQUARE Coworking Space?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>We have flexible Rent/Lease options. You can get an office for one day, one year or more. For
-                            long term office space requirements, we have a very simple lease agreement for executive
-                            office space. And with our professional executive office staff you have on-demand access to
-                            administrative support and office equipment without hiring a permanent staff or making a
-                            capital investment.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="question">
-                    Why book a BSQUARE Meeting Room?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>The BSQUARE meeting room is conveniently located in prime office building near major
-                            corporate houses. Your meeting room, board room, or conference room delivers a professional
-                            atmosphere equipped with high-speed Internet service, LCD Screen, Projector, Laptop, etc.
-                            Our professional meeting room staff has the skills to accommodate your needs of business
-                            presentation. Photocopiers, printing, facsimile and binding services are also available for
-                            our meeting room clients. In short, we have all theaccommodations to make your meeting a
-                            success.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="question">
-                    How do I benefit from your coworking space?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>No headache of Electricity Bill, Reception Support, Office Boy Support, Housekeeping,
-                            Cleaning, Office Maintenance, Plumbing, AMC Taxes, Telephone, Internet Broadband Connection,
-                            Photocopying, Printing, Scanning, High-configuration Computer, Furniture, Air-conditioning,
-                            Meeting/Conference Room, Guests-waiting lounge, Tea/Coffee, MineralWater, etc. In addition,
-                            there is heavy energy cost in managing office operations which cannot be measured in terms
-                            of money. BSQUARE will manage all your business needsand handle your burden of day-to-day
-                            office management, leaving you free to focus on your core business. The complete Office
-                            Package is offered at the cost of your services only and there is no office space rent cost.
-                            <br><br>
-                            <b>Switching to BSQUARE Coworking Space will definitely reduce your monthly bill by more
-                                than
-                                30%, thereby increasing your productivity.</b>
                         </p>
+                        <p><b>Eligibility:</b> Graduation or Under-graduation but with experience. Must possesses good
+                            English Communication Skills.</p>
+                        <p><b>Experience:</b> Preferably 12 months in Business Development</p>
+                        <p><b>Location:</b> Ahmedabad, Gujarat</p>
+                    </div>
 
-                    </div>
-                </div>
-            </div>
 
-            <div class="container">
-                <div class="question">
-                    What if my office requires change in the future?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>No problem. Since each Coworking Space typically has between 100 and 400 work stations, we
-                            can accommodate your changing office space needs with ease. You are locked into a lease
-                            agreement when you rent a traditional office, but at BSQUARE Coworking Space you can expand
-                            or shrink the size of your office space as your needs change. You only pay for the office
-                            space you need.</p>
-                    </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="question">
-                    Why should you switch to BSQUARE Meeting Rooms?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>BSQUARE meeting rooms are the solution for low-cost and flexible meeting spaces. We can
-                            accommodate any meeting rooms as per your need, from standard meeting rooms to conference
-                            rooms and board rooms. The BSQUARE meeting room support staff is available on demand to
-                            handle specific requests. With a BSQUARE meeting room you get a professional workspace,
-                            allowing your meetings to be more productive.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    Do I need to supply my own office equipment?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>No. All BSQUARE Coworking Space come equipped with everything you need. We have contemporary
-                            office furniture, high-speed Internet connectivity, fully staffed reception areas, waiting
-                            lounge and state-of-the-art meeting/conference room and pantry. Best of all you can expect
-                            the same high-quality office services. When you rent/lease a traditional office, you must
-                            outfit the entire office to your specifications at your own expense, which can take weeks or
-                            even months. With BSQUARE Coworking Space you can start your business immediately.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    When I can I get started in my new office?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>Our Coworking Space can be configured to your specifications and ready in no time. You can
-                            sign your BSQUARE office agreement on one day and start working in your new office the next.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    How will my business get visibility in BSQUARE Coworking Space?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>When you want a visible presence, a BSQUARE Coworking Space delivers. Our Coworking Space is
-                            located at a prime location in the heart of the city. We’re pleased to offer internal
-                            branding within our Coworking Space, allowing you to display your companylogo with your
-                            office. Simply provide us with your logo and we’ll do the rest. So, in addition to all the
-                            benefits of working in a BSQUARE Coworking Space, your office will present a seamless yet
-                            individual image. Contact us for details.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    What kind of experience will I have at a BSQUARE Meeting Room?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>A BSQUARE meeting room will allow you and your guests to focus on your work. And since our
-                            staff supports our meeting rooms, you will have no outside distractions. Your attendees will
-                            be greeted by our professional team in our spacious reception areas and shown to your
-                            assigned meeting room. BSQUARE meeting rooms are available in different styles, including
-                            training rooms, conference rooms, interview rooms and board room layouts.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    Is catering available at my meeting room?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>Yes, whether you choose a standard meeting room, conference room or board room, catering is
-                            available as an additional pay-as-you-use service. We’ll manage the ordering and delivery to
-                            your meeting room so you can focus on your meeting.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    Any other Coworking Space amenities available at my meeting room?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>No. All BSQUARE Coworking Space come equipped with everything you need. We have contemporary
-                            office furniture, high-speed Internet connectivity, fully staffed reception areas, waiting
-                            lounge and state-of-the-art meeting/conference room and pantry. Best of all you can expect
-                            the same high-quality office services. When you rent/lease a traditional office, you must
-                            outfit the entire office to your specifications at your own expense, which can take weeks or
-                            even months. With BSQUARE Coworking Space you can start your business immediately.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    Can I be reached during my meeting?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>A BSQUARE meeting room allows you to focus. If you expect to be contacted please instruct
-                            your meeting room receptionist how you would like your calls to be handled. Our
-                            receptionists will handle your messages or forward calls to your meeting, conference room
-                            according to your instructions. This means that you can receive calls in your meeting room
-                            or have them held until a time that is convenient for you.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    Is your meeting room pricing competitive?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>Yes. BSQUARE meeting rooms feature standard pricing with optional amenities available. Our
-                            meeting room pricing is both flexible and easy to understand.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="question">
-                    Is there a benefit in being a frequent BSQUARE meeting room customer?
-                </div>
-                <div class="answercont">
-                    <div class="answer">
-                        <p>Everyone can benefit from a BSQUARE meeting room. If you are a frequent customer you will
-                            definitely get huge discounts on our package.</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
-
-    </div>
-    <a id="button"></a>
-    <a href="https://wa.me/9925122772?text=Hello!%0A%0AThis is [Your Name].%0AI'd like to inquire about [Your Inquiry].%0A%0APlease respond." class="float" target="_blank">
+        <a id="button"></a>
+    </section>
+    <a href="https://wa.me/9925122772?text=Hello!%0A%0AThis is [Your Name].%0AI'd like to inquire about [Your Inquiry].%0A%0APlease respond."
+        class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
     <footer class="footer-section">
@@ -649,12 +403,12 @@
                             
 
                         </div>
-
-
                         <div class="footer-widget-heading">
 
                             <img src="./images/map2.png" width="100%" alt="">
                         </div>
+
+
 
 
                     </div>
@@ -703,6 +457,7 @@
                             </div>
 
                         </div>
+
                     </div>
                     <div class="col-xl-3 col-lg-3 mb-50">
                         <div class="footer-widget">
@@ -839,27 +594,6 @@
                 $dropdown.off("mouseenter mouseleave");
             }
         });
-
-
-
-        let question = document.querySelectorAll(".question");
-
-        question.forEach(question => {
-            question.addEventListener("click", event => {
-                const active = document.querySelector(".question.active");
-                if (active && active !== question) {
-                    active.classList.toggle("active");
-                    active.nextElementSibling.style.maxHeight = 0;
-                }
-                question.classList.toggle("active");
-                const answer = question.nextElementSibling;
-                if (question.classList.contains("active")) {
-                    answer.style.maxHeight = answer.scrollHeight + "px";
-                } else {
-                    answer.style.maxHeight = 0;
-                }
-            })
-        })
 
 
     </script>
